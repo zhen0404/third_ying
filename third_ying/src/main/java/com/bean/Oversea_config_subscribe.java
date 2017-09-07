@@ -1,6 +1,11 @@
 package com.bean;
 
 import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table
 public class Oversea_config_subscribe {
 
 	private int id;

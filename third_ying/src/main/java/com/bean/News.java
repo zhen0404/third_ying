@@ -2,6 +2,10 @@ package com.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table
 public class News {
 
 	private int id;
