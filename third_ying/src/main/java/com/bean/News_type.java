@@ -1,11 +1,12 @@
 package com.bean;
 
+import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-@Entity
-@Table(name="t_news")
+
+
 public class News_type {
 
 	private int id;
@@ -23,7 +24,7 @@ public class News_type {
 	private String seoDes;
 	private int addId;
 	private int updId;
-	private String updTime;
+	private Date updTime;
 	@Id
 	@GeneratedValue
 	public int getId() {

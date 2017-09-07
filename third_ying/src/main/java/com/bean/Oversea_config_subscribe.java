@@ -1,5 +1,6 @@
 package com.bean;
 
+import java.util.Date;
 public class Oversea_config_subscribe {
 
 	private int id;
@@ -9,8 +10,8 @@ public class Oversea_config_subscribe {
 	private String phone;
 	private String addr;
 	private int status;
-	private String create_date;
-	private String update_date;
+	private Date create_date;
+	private Date update_date;
 	public int getId() {
 		return id;
 	}

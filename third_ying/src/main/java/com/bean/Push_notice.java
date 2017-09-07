@@ -1,13 +1,14 @@
 package com.bean;
 
+import java.util.Date;
 public class Push_notice {
 
 	private int id;
 	private String title;
 	private String content;
 	private int status;
-	private String create_date;
-	private String update_Date;
+	private Date create_date;
+	private Date update_Date;
 	public int getId() {
 		return id;
 	}

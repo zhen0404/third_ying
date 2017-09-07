@@ -1,5 +1,6 @@
 package com.bean;
 
+import java.util.Date;
 public class Oversea_config {
 
 	private int id;
@@ -9,11 +10,11 @@ public class Oversea_config {
 	private String child_title;
 	private String description;
 	private String user_type;
-	private String updTime;
-	private String addTime;
+	private Date updTime;
+	private Date addTime;
 	private String oversea_icon;
-	private String start_date;
-	private String end_date;
+	private Date start_date;
+	private Date end_date;
 	private int status;
 	public int getId() {
 		return id;

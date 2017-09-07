@@ -1,5 +1,6 @@
 package com.bean;
 
+import java.util.Date;
 public class Sms_interface {
 
 	private int id;
@@ -8,7 +9,7 @@ public class Sms_interface {
 	private String address;
 	private String param;
 	private String content;
-	private String createdate;
+	private Date createdate;
 	public int getId() {
 		return id;
 	}

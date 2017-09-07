@@ -1,12 +1,7 @@
 package com.bean;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import java.util.Date;
 
-@Entity
-@Table(name="t_news")
 public class News {
 
 	private int id;
@@ -31,8 +26,8 @@ public class News {
 	private int audit;
 	private int addId;
 	private int updId;
-	private String updTime;
-	private String addTime;
+	private Date updTime;
+	private Date addTime;
 	public String getSubTitle() {
 		return subTitle;
 	}
@@ -144,23 +139,22 @@ public class News {
 	public int getUpdId() {
 		return updId;
 	}
+	public Date getUpdTime() {
+		return updTime;
+	}
+	public void setUpdTime(Date updTime) {
+		this.updTime = updTime;
+	}
+	public Date getAddTime() {
+		return addTime;
+	}
+	public void setAddTime(Date addTime) {
+		this.addTime = addTime;
+	}
 	public void setUpdId(int updId) {
 		this.updId = updId;
 	}
-	public String getUpdTime() {
-		return updTime;
-	}
-	public void setUpdTime(String updTime) {
-		this.updTime = updTime;
-	}
-	public String getAddTime() {
-		return addTime;
-	}
-	public void setAddTime(String addTime) {
-		this.addTime = addTime;
-	}
-	@Id
-	@GeneratedValue
+	
 	public int getId() {
 		return id;
 	}

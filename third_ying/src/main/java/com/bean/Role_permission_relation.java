@@ -1,10 +1,11 @@
 package com.bean;
 
+import java.util.Date;
 public class Role_permission_relation {
 
 	private int role_id;
 	private String permission_ename;
-	private String create_date;
+	private Date create_date;
 	public int getRole_id() {
 		return role_id;
 	}
